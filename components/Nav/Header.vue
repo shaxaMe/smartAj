@@ -1,5 +1,5 @@
 <template>
-    <div class="cm-container">
+    <div class="cm-container" data-aos="fade-down" data-aos-duration="550">
         <div class="w-full min-h-[100px] flex justify-between items-center">
         <div class="w-full h-full max-w-32 max-h-12">
             <img src="~/assets/images/logosmart.png" alt="logo">

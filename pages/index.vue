@@ -3,7 +3,7 @@
         <section class="bg-[#F2F5F7] h-screen">
             <div class="cm-container flex">
                 <div class="flex-1 mt-20 flex flex-col justify-between">
-                    <div class="flex flex-col gap-8">
+                    <div class="flex flex-col gap-8"  data-aos="fade-up" data-aos-duration="600">
                         <div class="text-black text-6xl w-full font-semibold leading-[110%]">
                             Consulting for your<br>
                             <div class="flex gap-4">
@@ -27,7 +27,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="flex justify-start items-stretch text-[#101011] mt-7">
+                    <div class="flex justify-start items-stretch text-[#101011] mt-7" data-aos="fade-right" data-aos-duration="750">
                         <div class="w-fit pr-8 py-2">
                             <p class="text-4xl font-semibold">30M</p>
                             <p class="text-base">Paid in cashbacks</p>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex-1">
+                <div class="flex-1" data-aos="fade-left" data-aos-duration="650">
                     <NuxtImg src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/main.svg" class="w-full max-w-[650px] max-h-[600px]" />
                 </div>
             </div>

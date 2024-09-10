@@ -12,8 +12,8 @@
   "dependencies": {
     "@nuxt/image": "^1.8.0",
     "@nuxt/ui": "^2.18.4",
-    "animate.css": "^4.1.1",
     "nuxt": "^3.13.0",
+    "nuxt-aos": "^1.2.5",
     "vue": "latest",
     "vue-router": "latest"
   },
