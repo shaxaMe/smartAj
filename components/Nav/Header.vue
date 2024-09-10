@@ -4,7 +4,7 @@
         <div class="w-full h-full max-w-32 max-h-12">
             <img src="~/assets/images/logosmart.png" alt="logo">
         </div>
-        <nav class="flex-1 max-w-[600px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
+        <nav class="flex-1 max-w-[500px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
             <a href="#" class="nav-link app-nav relative">Services</a>
             <a href="#" class="nav-link app-nav relative">Case Studies</a>
             <a href="#" class="nav-link app-nav relative">Insights</a>
