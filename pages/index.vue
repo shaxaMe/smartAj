@@ -10,7 +10,7 @@
                                 <p>app &</p>
                                 <p class="w-fit relative flex flex-col">
                                     <span class="m-0 h-auto">software</span>
-                                    <NuxtImg src="/line.svg" class="h-auto absolute w-full top-1" />
+                                    <NuxtImg src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/line.svg" class="h-auto absolute w-full top-1" />
                                 </p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="flex-1">
-                    <NuxtImg src="/main.svg" class="w-full max-w-[650px] max-h-[600px]" />
+                    <NuxtImg src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/main.svg" class="w-full max-w-[650px] max-h-[600px]" />
                 </div>
             </div>
         </section>
