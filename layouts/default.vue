@@ -1,7 +1,7 @@
 <template>
     <div class="w-full">
-       <NavHeader />
-       <NuxtPage />
+       <NavHeader class="relative z-10" />
+       <NuxtPage class="relative z-[1]" />
     </div>
 </template>
 

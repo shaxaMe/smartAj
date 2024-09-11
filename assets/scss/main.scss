@@ -81,3 +81,12 @@ body{
          }
     }
 }
+
+.faqs-tab{
+    .h-10{
+       background: #F2F5F7 !important;
+    }
+    button[aria-selected="true"] {
+        background-color:#023363 !important;
+    }
+}
