@@ -10,7 +10,7 @@
                                 <p>app &</p>
                                 <p class="w-fit relative flex flex-col">
                                     <span class="m-0 h-auto">software</span>
-                                    <NuxtImg src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/line.svg" class="h-auto absolute w-full top-1" />
+                                    <NuxtImg src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/line.svg" class="h-auto absolute w-full top-4" />
                                 </p>
                             </div>
                         </div>
@@ -22,7 +22,7 @@
                             <UInput class="ui-input max-w-[250px] flex-1" icon="i-material-symbols:mail" size="xl"
                                 color="white" :trailing="false" placeholder="hello@innovar.com" />
                             <button
-                                class="min-h-[44px] max-w-[160px] flex-1 hover:bg-[#6aca7c] hover:text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] text-[#5DB36E] border-[#5DB36E] border rounded-[10px]">
+                                class="min-h-[44px] max-w-[160px] flex-1 text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] hover:bg-[#023363] bg-[#023363] border rounded-[10px]">
                                 Get in touch
                             </button>
                         </div>
@@ -49,6 +49,12 @@
         </section>
         <section>
             <Partners />
+        </section>
+        <section>
+            <About />
+        </section>
+        <section>
+            <Service />
         </section>
     </div>
 </template>
