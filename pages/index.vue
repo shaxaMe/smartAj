@@ -56,5 +56,8 @@
         <section>
             <Service />
         </section>
+        <section>
+            <Statute />
+        </section>
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <div class="cm-container py-10">
-        <div class="bg-[#F6F6F7] text-[#101011] px-5 py-3 text-center w-fit rounded-[10px]">
+        <div class="bg-[#F2F5F7] text-[#101011] text-lg font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
             Xizmatlarimiz
         </div>
         <div class="mt-5 flex flex-col gap-20">

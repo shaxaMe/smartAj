@@ -1,30 +1,45 @@
 <template>
     <div class="cm-container" data-aos="fade-down" data-aos-duration="550">
         <div class="w-full min-h-[100px] flex justify-between items-center">
-        <nuxt-link to="/" class="w-fit h-full text-xl max-h-12 text-black cursor-pointer logo-text">
-            <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
-            SMART MARKETPLACE AJ
-        </nuxt-link>
-        <nav class="flex-1 max-w-[600px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
-            <a href="#" class="nav-link app-nav relative">Biz haqimizda</a>
-            <a href="#" class="nav-link app-nav relative">Xizmatlarimiz</a>
-            <a href="#" class="nav-link app-nav relative">Nizom</a>
-            <a href="#" class="nav-link app-nav relative">Jamoa</a>
-            <a href="#" class="nav-link app-nav relative">Bo'sh ish o'rinlari</a>
+            <nuxt-link to="/" class="w-fit h-full text-xl max-h-12 text-black cursor-pointer logo-text">
+                <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
+                SMART MARKETPLACE AJ
+            </nuxt-link>
+            <nav class="flex-1 max-w-[700px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
+                <a href="#" class="nav-link app-nav relative">Biz haqimizda</a>
+                <a href="#" class="nav-link app-nav relative">Xizmatlarimiz</a>
+                <a href="#" class="nav-link app-nav relative">Nizom</a>
+                <a href="#" class="nav-link app-nav !relative group z-30">
+                    Jamoa
+                    <ul
+                        class="absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[350px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
+                        <li>
+                            <div class="nav-link app-nav relative w-fit">Rahbariyat</div>
+                        </li>
+                        <li>
+                            <div class="nav-link app-nav relative w-fit">Boshqaruv va nazorat organlari</div>
+                        </li>
+                        <li>
+                            <div class="nav-link app-nav relative w-fit">Tashkiliy tuzilma</div>
+                        </li>
+                    </ul>
+                </a>
 
-            <!-- <a href="#">
+                <a href="#" class="nav-link app-nav relative">Bo'sh ish o'rinlari</a>
+                <a href="#" class="nav-link app-nav relative">Yangiliklar</a>
+                <!-- <a href="#">
                 <UDropdown :items="items" :popper="{ placement: 'bottom-start' }" class="ui-dropdonw">
                     <UButton color="white" label="More" trailing-icon="i-heroicons-chevron-down-20-solid" />
                 </UDropdown>
             </a> -->
-        </nav>
-        <button
-            class="min-h-[44px] hover:bg-[#023363] bg-[#023363] hover:text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] text-[#fff] border-[#023363] border-2 rounded-[10px]">
-            Get in touch
-        </button>
+            </nav>
+            <button
+                class="min-h-[44px] hover:bg-[#023363] bg-[#023363] hover:text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] text-[#fff] border-[#023363] border-2 rounded-[10px]">
+                Get in touch
+            </button>
+        </div>
     </div>
-    </div>
-    
+
 </template>
 
 <script setup>
