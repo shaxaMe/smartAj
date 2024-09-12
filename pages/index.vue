@@ -4,7 +4,7 @@
             <div class="cm-container flex">
                 <div class="flex-1 mt-20 flex flex-col justify-between">
                     <div class="flex flex-col gap-8"  data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-back">
-                        <div class="text-black text-6xl w-full font-semibold leading-[110%]">
+                        <div class="text-black text-6xl w-full font-semibold leading-[110%] ">
                             Consulting for your<br>
                             <div class="flex gap-4">
                                 <p>app &</p>
@@ -19,10 +19,10 @@
                             access<br>
                             perks, cashbacks, and savings effortlessly.</p>
                         <div class="flex justify-start items-stretch gap-3">
-                            <UInput class="ui-input max-w-[250px] flex-1" icon="i-material-symbols:mail" size="xl"
+                            <UInput class="ui-input target-button max-w-[250px] flex-1" icon="i-material-symbols:mail" size="xl"
                                 color="white" :trailing="false" placeholder="hello@innovar.com" />
                             <button
-                                class="min-h-[44px] max-w-[160px] flex-1 text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] hover:bg-[#023363] bg-[#023363] border rounded-[10px]">
+                                class="min-h-[44px] target-button max-w-[160px] flex-1 text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] hover:bg-[#023363] bg-[#023363] border rounded-[10px]">
                                 Get in touch
                             </button>
                         </div>
