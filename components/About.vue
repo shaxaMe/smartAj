@@ -20,7 +20,7 @@
 
                 </div>
                 <div class="flex-1 overflow-hidden rounded-xl group" data-aos="fade-left" data-aos-duration="900" data-aos-offest="1000">
-                    <NuxtImg src="/imageabout.png"
+                    <NuxtImg src="https://github.com/shaxaMe/cfgcs/blob/main/imageabout.png?raw=true"
                         class="w-full h-full object-cover group-hover:scale-125 transition ease-in-out duration-500"
                         alt="" />
                 </div>
@@ -53,7 +53,7 @@
 
                 </div>
                 <div class="flex-1 overflow-hidden rounded-xl group" data-aos="fade-left" data-aos-duration="900" data-aos-offest="1000">
-                    <NuxtImg src="/imageabout.png"
+                    <NuxtImg src="https://github.com/shaxaMe/cfgcs/blob/main/imageabout.png?raw=true"
                         class="w-full h-full object-cover group-hover:scale-125 transition ease-in-out duration-500"
                         alt="" />
                 </div>
