@@ -25,7 +25,7 @@
                     </ul>
                 </a>
 
-                <a href="#" class="nav-link app-nav relative">Bo'sh ish o'rinlari</a>
+                <a href="#" class="nav-link app-nav relative">Vakansiyalar</a>
                 <a href="#" class="nav-link app-nav relative">Yangiliklar</a>
                 <!-- <a href="#">
                 <UDropdown :items="items" :popper="{ placement: 'bottom-start' }" class="ui-dropdonw">
