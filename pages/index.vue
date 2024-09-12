@@ -9,7 +9,7 @@
                             <div class="flex gap-4">
                                 <p>app &</p>
                                 <p class="w-fit relative flex flex-col">
-                                    <span class="m-0 h-auto">software app</span>
+                                    <span class="m-0 h-auto">software</span>
                                     <NuxtImg src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/line.svg" class="h-auto absolute w-full top-4" />
                                 </p>
                             </div>
@@ -58,6 +58,15 @@
         </section>
         <section>
             <Statute />
+        </section>
+        <section>
+            <Vacancy />
+        </section>
+        <section>
+            <News/>
+        </section>
+        <section>
+            <Footer />
         </section>
     </div>
 </template>
