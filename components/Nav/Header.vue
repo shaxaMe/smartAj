@@ -3,12 +3,12 @@
         <div class="w-full min-h-[100px] flex justify-between items-center">
             <nuxt-link to="/" class="w-fit h-full text-xl max-h-12 text-black cursor-pointer logo-text">
                 <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
-                SMART MARKETPLACE AJ
+                SMART<br>MARKETPLACE AJ
             </nuxt-link>
-            <nav class="flex-1 max-w-[700px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
+            <nav class="flex-1 max-w-[500px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
                 <a href="#" class="nav-link app-nav relative">Biz haqimizda</a>
                 <a href="#" class="nav-link app-nav relative">Xizmatlarimiz</a>
-                <a href="#" class="nav-link app-nav relative">Nizom</a>
+                <!-- <a href="#" class="nav-link app-nav relative">Nizom</a> -->
                 <a href="#" class="nav-link app-nav !relative group z-30">
                     Jamoa
                     <ul
@@ -25,7 +25,7 @@
                     </ul>
                 </a>
 
-                <a href="#" class="nav-link app-nav relative">Vakansiyalar</a>
+                <!-- <a href="#" class="nav-link app-nav relative">Vakansiyalar</a> -->
                 <a href="#" class="nav-link app-nav relative">Yangiliklar</a>
                 <!-- <a href="#">
                 <UDropdown :items="items" :popper="{ placement: 'bottom-start' }" class="ui-dropdonw">
