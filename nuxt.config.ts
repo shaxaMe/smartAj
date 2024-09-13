@@ -11,6 +11,9 @@ export default defineNuxtConfig({
   image: {
     dir: 'assets/images'
   },
+  colorMode: {
+    preference: 'light'
+  },
   aos: {
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

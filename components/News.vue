@@ -1,10 +1,12 @@
 <template>
-    <div class="cm-container py-10">
-        <div class="bg-[#F2F5F7] text-[#101011] text-lg font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
-            Yangiliklar
+    <div class="cm-container py-10 max-md:px-5">
+        <div class="w-full max-sm:flex max-sm:justify-center">
+            <div data-aos="fade-up" data-aos-duration="600" data-aos-offest="100" data-aos-easing="ease-in-back" class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-base  font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
+            Yangiliklar 
         </div>
-            <div class="mx-auto px-4 sm:px-6 lg:px-8 py-5">
-                <h2 class="font-manrope text-4xl font-bold text-gray-900 text-start mb-14">Our popular blogs</h2>
+        </div>
+            <div>
+                <h2 class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center my-4">Our popular blogs</h2>
                 <div
                     class="flex justify-center mb-14 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
                     <div v-for="(item,i) in 3" :key="i"
@@ -24,7 +26,7 @@
                     </div>
                 </div>
                 <a href="javascript:;"
-                    class="cursor-pointer border border-gray-300 shadow-sm rounded-full py-3.5 px-7 w-52 flex justify-center items-center text-gray-900 font-semibold mx-auto transition-all duration-300 hover:bg-gray-100">View
+                    class="cursor-pointer hidden border border-gray-300 shadow-sm rounded-full py-3.5 px-7 w-52 flex justify-center items-center text-gray-900 font-semibold mx-auto transition-all duration-300 hover:bg-gray-100 max-sm:text-sm max-sm:py-3">View
                     All</a>
             </div>
     </div>
