@@ -15,7 +15,8 @@
     "nuxt": "^3.13.0",
     "nuxt-aos": "^1.2.5",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vue3-marquee": "^4.2.2"
   },
   "devDependencies": {
     "@hypernym/nuxt-gsap": "^2.4.3",

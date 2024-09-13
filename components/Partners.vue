@@ -1,8 +1,11 @@
 <template>
-    <div class="cm-container">
-        <div class="flex justify-between items-stretch gap-2 py-10" data-aos="fade-up" data-aos-duration="850" data-aos-easing="ease-in-back">
-            <div class="card w-fit" v-for="(item, i) in images" :key="i">
-                <img :src="item" alt="img" class="w-full object-contain">
+    <div class="cm-container max-md:px-5">
+        <div class="flex justify-between items-stretch gap-2 py-10 max-md:py-5" data-aos="fade-up"
+            data-aos-duration="850" data-aos-easing="ease-in-back">
+            <div class="card relative" v-for="(item, i) in images" :key="i">
+               <a :href="item.link"  target="_blank" >
+                <img :src="item.src" alt="logos" class="w-[10rem] max-md:w-[8rem] max-sm:w-[6rem] max-sm:object-contain h-full" >
+               </a>
             </div>
         </div>
     </div>
@@ -10,14 +13,24 @@
 
 <script setup>
 
-import huawei from "~/assets/images/huawei.svg";
-import lexus from "~/assets/images/lexus.svg";
-import netfilx from "~/assets/images/netfilx.svg";
-import shopify from "~/assets/images/shopify.svg";
-import sputify from "~/assets/images/sputify.svg";
+import onlinebozor from "~/assets/images/onlinebozor.svg";
+import RealPay from "~/assets/images/RealPay.svg";
+import smartmarket from "~/assets/images/smartmarket.svg";
+import RealSoft_logo from "~/assets/images/RealSoft_logo.svg";
 
-
-const images = ref([huawei, lexus, netfilx, shopify, sputify])
+const images = ref([{
+    src: onlinebozor,
+    link:'https://online-bozor.uz/'
+}, {
+    src: RealPay,
+    link:'https://realpay.uz/'
+}, {
+    src: smartmarket,
+    link:'https://smart-market.uz/'
+},{
+    src: RealSoft_logo,
+    link:'https://realsoft.uz/'
+}])
 </script>
 
 <style lang="scss" scoped></style>

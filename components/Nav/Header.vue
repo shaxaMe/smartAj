@@ -1,11 +1,11 @@
 <template>
-    <div class="cm-container" data-aos="fade-down" data-aos-duration="550">
+    <div class="cm-container max-md:px-5" data-aos="fade-down" data-aos-duration="550">
         <div class="w-full min-h-[100px] flex justify-between items-center">
             <nuxt-link to="/" class="w-fit h-full text-xl max-h-12 text-black cursor-pointer logo-text">
                 <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
                 SMART<br>MARKETPLACE AJ
             </nuxt-link>
-            <nav class="flex-1 max-w-[500px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
+            <nav class="flex-1 max-md:hidden max-w-[500px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
                 <a href="#" class="nav-link app-nav relative">Biz haqimizda</a>
                 <a href="#" class="nav-link app-nav relative">Xizmatlarimiz</a>
                 <!-- <a href="#" class="nav-link app-nav relative">Nizom</a> -->
@@ -34,7 +34,7 @@
             </a> -->
             </nav>
             <button
-                class="min-h-[44px] hover:bg-[#023363] bg-[#023363] hover:text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] text-[#fff] border-[#023363] border-2 rounded-[10px]">
+                class="min-h-[44px] max-sm:hidden hover:bg-[#023363] bg-[#023363] hover:text-white transition duration-150 ease-in-out font-semibold text-base min-w-[150px] text-[#fff] border-[#023363] border-2 rounded-[10px]">
                 Get in touch
             </button>
         </div>
