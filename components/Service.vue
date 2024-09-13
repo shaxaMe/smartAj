@@ -22,22 +22,23 @@
         <div class="flex items-stretch gap-5 mt-[5rem] max-md:mt-10 max-md:flex-col">
            <div class="overflow-hidden flex-1 rounded-xl h-full relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
              <!-- <img src="~/assets/images/service.png" class="h-full object-cover w-full" alt="servise"> -->
-             <video src="~/assets/video/smartmarket.mp4" class="min-h-[650px] max-md:min-h-[300px] object-cover" autoplay muted loop></video>
+             <video src="~/assets/video/Smartmarket.mp4" class="min-h-[650px] max-md:min-h-[300px] object-cover" autoplay muted loop></video>
              <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">
                 <p class="font-semibold text-xl">Smart-Mаrket </p>
                 <p>Logo, user interface</p>
              </div>
            </div>
            <div class="flex flex-col flex-1 justify-between max-md:flex-row max-md:gap-4 max-sm:flex-col">
-             <div class="max-h-[320px] overflow-hidden rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
-                <img class="min-w-full" src="~/assets/images/service.png" alt="servise">
+             <div class="max-h-[320px] overflow-hidden border shadow-md rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
+                <!-- <img class="min-w-full" src="~/assets/images/service.png" alt="servise"> -->
+                <video src="~/assets/video/Onlinebozor.mp4" class="min-w-full object-cover" autoplay muted loop></video>
                 <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">
                 <p class="font-semibold text-xl">Dreamy vision</p>
                 <p>Logo, user interface</p>
              </div>
              </div>
              <div class="max-h-[320px] overflow-hidden rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-offest="500">
-                <img class="min-w-full" src="~/assets/images/service.png" alt="servise">
+                <img class="min-w-full" src="~/assets/images/realpaybg.png" alt="servise">
                 <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">
                 <p class="font-semibold text-xl">Dreamy vision</p>
                 <p>Logo, user interface</p>

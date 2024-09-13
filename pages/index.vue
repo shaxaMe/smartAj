@@ -1,13 +1,13 @@
 <template>
     <div>
-        <section>
-            <div class="w-screen h-[50dvh] relative">
+        <section class="py-5">
+            <div class="w-screen h-[65dvh] max-md:h-[50dvh] relative">
                 <div class="w-full h-full absolute inset-0 bg-black/25">
                      <p>
 
                      </p>
                 </div>
-                <video class="w-full h-full object-cover" src="~/assets/video/bgvideo.mp4" autoplay muted loop></video>
+                <video class="w-full h-full object-cover" src="~/assets/video/meeting.mp4" autoplay muted loop></video>
             </div>
         </section>
         <section class="bg-[#F2F5F7] py-10 max-md:py-5">
