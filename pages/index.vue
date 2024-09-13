@@ -2,9 +2,9 @@
     <div>
         <section class="py-5">
             <div class="w-screen h-[65dvh] max-md:h-[50dvh] relative">
-                <div class="w-full h-full absolute inset-0 bg-black/25">
-                    <p>
-
+                <div class="w-full h-full flex justify-center items-center absolute inset-0 bg-black/25">
+                    <p data-aos="fade-up" class="text-white text-6xl text-center backdrop-blur-sm bg-white/10 w-1/3 py-5 px-8 rounded-lg filter">
+                        Discover our app for seamless rewards
                     </p>
                 </div>
                 <video v-show="!loading" id="video" class="w-full h-full object-cover" src="~/assets/video/meeting.mp4"
