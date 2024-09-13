@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="flex items-stretch gap-5 mt-[5rem] max-md:mt-10 max-md:flex-col">
-           <div class="overflow-hidden flex-1 rounded-xl h-full relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
+           <div class="overflow-hidden shadow-md flex-1 rounded-xl h-full relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
              <!-- <img src="~/assets/images/service.png" class="h-full object-cover w-full" alt="servise"> -->
              <video src="~/assets/video/Smartmarket.mp4" class="min-h-[650px] max-md:min-h-[300px] object-cover" autoplay muted loop></video>
              <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">

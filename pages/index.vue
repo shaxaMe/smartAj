@@ -9,7 +9,7 @@
                 </div>
                 <video v-show="!loading" id="video" class="w-full h-full object-cover" src="~/assets/video/meeting.mp4"
                     autoplay muted loop></video>
-                    <NuxtImg v-show="loading" src="https://github.com/shaxaMe/cfgcs/blob/main/imageabout.png?raw=true"
+                    <img v-show="loading" src="~/assets/images/offise.jpg"
                         class="w-full h-full object-cover group-hover:scale-125 transition ease-in-out duration-500"
                         alt="" />   
             </div>
