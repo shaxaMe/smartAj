@@ -1,10 +1,20 @@
 <template>
     <div>
+        <section>
+            <div class="w-screen h-[50dvh] relative">
+                <div class="w-full h-full absolute inset-0 bg-black/25">
+                     <p>
+
+                     </p>
+                </div>
+                <video class="w-full h-full object-cover" src="~/assets/video/bgvideo.mp4" autoplay muted loop></video>
+            </div>
+        </section>
         <section class="bg-[#F2F5F7] py-10 max-md:py-5">
             <div class="cm-container flex max-md:gap-4 max-md:px-5 max-md:flex-col">
                 <div class="flex-1 mt-20 max-md:mt-5 flex flex-col justify-between">
                     <div class="flex flex-col gap-8 max-md:gap-4 max-md:justify-center max-md:items-center"  data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-back">
-                        <div class="text-black text-6xl max-md:text-5xl max-sm:text-3xl max-md:text-center w-full font-semibold leading-[110%] max-md:leading-[120%] max-[350px]:text-2xl">
+                        <div class="text-black text-6xl max-md:text-5xl max-sm:text-3xl max-md:text-center w-full font-semibold leading-[110%] max-md:leading-[120%] max-[350px]:text-3xl">
                             Consulting for your<br>
                             <div class="flex gap-4 max-md:text-center max-md:justify-center max-sm:gap-2">
                                 <p>app &</p>

@@ -1,7 +1,7 @@
 <template>
     <div class="cm-container max-md:px-5" data-aos="fade-down" data-aos-duration="550">
         <div class="w-full min-h-[100px] flex justify-between items-center">
-            <nuxt-link to="/" class="w-fit h-full text-xl max-h-12 text-black cursor-pointer logo-text">
+            <nuxt-link to="/" class="w-fit h-full text-xl max-h-12 max-md:text-lg max-md:leading-5 text-black cursor-pointer logo-text">
                 <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
                 SMART<br>MARKETPLACE AJ
             </nuxt-link>
