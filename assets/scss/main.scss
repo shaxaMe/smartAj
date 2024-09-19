@@ -7,9 +7,13 @@
     box-sizing: border-box;
     font-family: "Familjen Grotesk",sans-serif;
     font-style: normal;
+    scroll-behavior: smooth;
 }
 body{
     background: #fff !important;
+}
+html{
+  scroll-padding: var(--scroll-padding, 5rem);
 }
 
 .logo-text{

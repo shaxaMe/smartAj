@@ -3,27 +3,28 @@
         <div class="w-full min-h-[100px] flex justify-between items-center">
             <nuxt-link to="/" class="w-fit h-full text-xl max-h-12 max-md:text-lg max-md:leading-5 text-black cursor-pointer logo-text">
                 <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
-                SMART<br>MARKETPLACE AJ
+                "SMART MARKETPLACE" AJ
             </nuxt-link>
             <nav class="flex-1 max-md:hidden max-w-[500px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
-                <a href="#" class="nav-link app-nav relative">Biz haqimizda</a>
-                <a href="#" class="nav-link app-nav relative">Xizmatlarimiz</a>
-                <!-- <a href="#" class="nav-link app-nav relative">Nizom</a> -->
+                <a href="#about" class="nav-link app-nav relative">Biz haqimizda</a>
                 <a href="#" class="nav-link app-nav !relative group z-30">
                     Jamoa
                     <ul
                         class="absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[350px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
                         <li>
-                            <div class="nav-link app-nav relative w-fit">Rahbariyat</div>
+                            <nuxt-link :to="{ path: '/team', query: { type: 'main' }}" class="nav-link app-nav relative w-fit">Rahbariyat</nuxt-link>
                         </li>
                         <li>
-                            <div class="nav-link app-nav relative w-fit">Boshqaruv va nazorat organlari</div>
+                            <nuxt-link :to="{ path: '/team', query: { type: 'control' }}" class="nav-link app-nav relative w-fit">Boshqaruv va nazorat organlari</nuxt-link>
                         </li>
                         <li>
-                            <div class="nav-link app-nav relative w-fit">Tashkiliy tuzilma</div>
+                            <nuxt-link :to="{ path: '/team', query: { type: 'department' }}" class="nav-link app-nav relative w-fit">Tashkiliy tuzilma</nuxt-link>
                         </li>
                     </ul>
                 </a>
+                <a href="#" class="nav-link app-nav relative">Mahsulotlarimiz</a>
+                <!-- <a href="#" class="nav-link app-nav relative">Nizom</a> -->
+                
 
                 <!-- <a href="#" class="nav-link app-nav relative">Vakansiyalar</a> -->
                 <a href="#" class="nav-link app-nav relative">Yangiliklar</a>

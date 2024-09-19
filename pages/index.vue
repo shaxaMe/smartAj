@@ -89,10 +89,10 @@
             <Statute />
         </section>
         <section>
-            <Vacancy />
+            <News />
         </section>
         <section>
-            <News />
+            <Vacancy />
         </section>
         <section>
             <Footer />
