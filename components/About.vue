@@ -1,6 +1,6 @@
 <template>
     <div class="cm-container py-10  max-lg:px-5 max-md:py-5">
-        <div class="w-full max-sm:flex max-sm:justify-center">
+        <div id="about" class="w-full max-sm:flex max-sm:justify-center">
             <div data-aos="fade-up" data-aos-duration="600" data-aos-offest="300" data-aos-easing="ease-in-back" class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-[1em] font-semibold px-5 py-3 text-center w-fit rounded-[10px] ">
             Biz haqimizda
         </div>

@@ -6,7 +6,7 @@
         </div>
         </div>
         <div class="mt-10">
-            <div class="max-w-[400px] faqs-tab">
+            <div class="max-w-[300px] faqs-tab">
                 <UTabs :items="items" :default-index="2" />
             </div>
         </div>
@@ -22,10 +22,6 @@ const items = [{
     label: 'Litsenziya',
     icon: 'i-clarity:license-line',
     content: 'And, this is the content for Tab2'
-}, {
-    label: 'FAQ',
-    icon: 'i-material-symbols:indeterminate-question-box',
-    content: 'Finally, this is the content for Tab3'
 }]
 </script>
 
