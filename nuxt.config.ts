@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   ssr: false,
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@nuxt/image', 'nuxt-aos','@hypernym/nuxt-gsap'],
+  modules: ['@nuxt/ui', '@nuxt/image', 'nuxt-aos', '@hypernym/nuxt-gsap', '@nuxtjs/i18n'],
+  i18n: {
+    vueI18n: './i18n.config.ts' // if you are using custom path, default
+  },
   css: [
     '~/assets/css/tailwind.css',
     '~/assets/scss/main.scss',

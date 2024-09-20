@@ -21,10 +21,10 @@
                     </p>
 
                 </div>
-                <div class="flex-1 max-md:min-w-full overflow-hidden rounded-xl group max-md:-order-1" data-aos="fade-left" data-aos-duration="900" data-aos-offest="1000">
-                    <NuxtImg src="https://github.com/shaxaMe/cfgcs/blob/main/imageabout.png?raw=true"
+                <div class="flex-1 max-md:min-w-full overflow-hidden max-h-[300px] rounded-xl group max-md:-order-1" data-aos="fade-left" data-aos-duration="900" data-aos-offest="1000">
+                    <img src="../assets/images/istock-transformed.webp"
                         class="w-full h-full object-cover group-hover:scale-125 transition ease-in-out duration-500"
-                        alt="" />
+                        alt="team" />
                 </div>
                 <div class="bg-[#F6F6F7] max-md:flex-1 p-10 text-black max-md:max-w-full max-w-[300px] rounded-xl" data-aos="fade-left" data-aos-duration="1200" data-aos-offest="100">
                     <div class="bg-[#FFFFFF] rounded-full flex justify-center items-center p-4 w-fit shadow-lg">
@@ -54,10 +54,10 @@
                     </p>
 
                 </div>
-                <div class="flex-1 max-md:hidden overflow-hidden rounded-xl group" data-aos="fade-left" data-aos-duration="900" data-aos-offest="1000">
-                    <NuxtImg src="https://github.com/shaxaMe/cfgcs/blob/main/imageabout.png?raw=true"
+                <div class="flex-1 max-md:hidden overflow-hidden max-h-[300px] rounded-xl group" data-aos="fade-left" data-aos-duration="900" data-aos-offest="1000">
+                    <img src="../assets/images/istock2-transformed.webp"
                         class="w-full h-full object-cover group-hover:scale-125 transition ease-in-out duration-500"
-                        alt="" />
+                        alt="team" />
                 </div>
                 <div class="bg-[#F6F6F7] max-md:max-w-full p-10 max-md:flex-1 text-black max-w-[300px] rounded-xl" data-aos="fade-left" data-aos-duration="1200" data-aos-offest="100">
                     <div class="bg-[#FFFFFF] rounded-full flex justify-center items-center p-4 w-fit shadow-lg">

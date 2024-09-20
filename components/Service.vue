@@ -1,8 +1,8 @@
 <template>
     <div class="cm-container py-10 max-md:px-5">
         <div class="w-full max-sm:flex max-sm:justify-center">
-            <div data-aos="fade-up" data-aos-duration="600" data-aos-offest="100" data-aos-easing="ease-in-back" class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-base  font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
-            Xizmatlarimiz
+            <div id="products" data-aos="fade-up" data-aos-duration="600" data-aos-offest="100" data-aos-easing="ease-in-back" class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-base  font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
+            Mahsulotlarimiz
         </div>
         </div>
         <div class="mt-5 flex flex-col gap-20">
@@ -31,14 +31,14 @@
            <div class="flex flex-col flex-1 justify-between max-md:flex-row max-md:gap-4 max-sm:flex-col">
              <div class="max-h-[320px] max-md:min-h-[300px] overflow-hidden border shadow-md rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
                 <!-- <img class="min-w-full" src="~/assets/images/service.png" alt="servise"> -->
-                <video src="~/assets/video/Onlinebozor.mp4" class="min-w-full h-full object-cover" autoplay muted loop></video>
+                <video src="~/assets/video/Onlinebozor.mp4" class="min-w-full max-md:absolute h-full object-cover" autoplay muted loop></video>
                 <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">
                 <p class="font-semibold text-xl">Dreamy vision</p>
                 <p>Logo, user interface</p>
              </div>
              </div>
              <div class="max-h-[320px] shadow-md overflow-hidden max-md:min-h-[300px] rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-offest="500">
-                <img class="min-w-full object-cover" src="~/assets/images/realpaybg.png" alt="servise">
+                <video src="~/assets/video/realpay.mp4" class="min-w-full max-md:absolute h-full object-cover" autoplay muted loop></video>
                 <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">
                 <p class="font-semibold text-xl">Dreamy vision</p>
                 <p>Logo, user interface</p>

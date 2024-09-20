@@ -32,12 +32,12 @@
                                 </p>
                             </div>
                         </div>
-                        <p class="text-[#404144] text-[1.5em] max-sm:text-[1em] leading-[130%] max-md:text-center">
+                        <p class="text-[#404144] text-[1.5em] mt-5 max-sm:text-[1em] leading-[130%] max-md:text-center">
                             Discover our app for seamless rewards
                             -
                             access<br>
                             perks, cashbacks, and savings effortlessly.</p>
-                        <div
+                        <!-- <div
                             class="flex justify-start max-md:justify-center max-sm:flex-col max-md:w-full items-stretch gap-3">
                             <UInput class="ui-input max-sm:max-w-full target-button max-w-[250px] flex-1"
                                 icon="i-material-symbols:mail" size="xl" color="white" :trailing="false"
@@ -46,7 +46,7 @@
                                 class="min-h-[44px] target-button max-w-[160px] flex-1 text-white transition duration-150 ease-in-out max-sm:max-w-full font-semibold text-base min-w-[150px] hover:bg-[#023363] bg-[#023363] border rounded-[10px]">
                                 Get in touch
                             </button>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="flex justify-start max-md:justify-center items-stretch text-[#101011] mt-7"
                         data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-duration="750">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="flex-1 max-md:flex max-md:justify-center" data-aos="fade-left" data-aos-duration="650"
-                    data-aos-easing="ease-in-back">
+                    data-aos-easing="ease-in-back" data-aos-offset="500">
                     <NuxtImg
                         src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/main.svg"
                         class="w-full max-w-[650px] max-md:max-w-[450px] max-h-[600px]" />
@@ -94,9 +94,6 @@
         <section>
             <Vacancy />
         </section>
-        <section>
-            <Footer />
-        </section>
     </div>
 </template>
 
@@ -104,11 +101,9 @@
 let loading = ref(true);
 onMounted(() => {
     let video = document.querySelector("#video");
-    console.log(video)
     setTimeout(()=>{
         if (video) {
         video.addEventListener("canplaythrough", (event) => {
-            console.log(event);
             loading.value = false;
         });
     }
