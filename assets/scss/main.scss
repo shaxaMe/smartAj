@@ -94,5 +94,10 @@ html,body{
     }
     button[aria-selected="true"] {
         background-color:#023363 !important;
+        color: #fff !important;
     }
+}
+
+.z-20.group.w-48{
+    max-width: 100px !important;
 }

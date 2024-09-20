@@ -5,7 +5,7 @@
                 <div class="w-full justify-center items-center flex max-sm:justify-center">
                     <div data-aos="fade-up" data-aos-duration="600" data-aos-offest="300" data-aos-easing="ease-in-back"
                         class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-[1em] font-semibold px-5 py-3 text-center w-fit rounded-[10px] ">
-                        Jamoa
+                        {{route.query.type=='main'?'Rahbariyat':route.query.type=='control'?'Boshqaruv va nazorat organlari':'Tashkiliy tuzilma'}}
                     </div>
                 </div>
                 <div class="mt-10 flex flex-col gap-20 max-md:gap-8">
@@ -14,7 +14,7 @@
                         Team Innovar: behind<br>
                         the great work audiences</h1>
                     <div class="grid grid-cols-3 gap-3">
-                          <div class="bg-[#F6F6F7] p-6 rounded-xl">
+                          <div class="bg-[#F6F6F7] p-6 rounded-xl" v-for="item in 6">
                                  <div class="w-full p-1 overflow-hidden">
                                     <img src="https://unistudio.co/html/innovar/assets/images/team/member-01.jpg" alt="">
                                  </div>
@@ -33,5 +33,5 @@
 </template>
 
 <script setup>
-
+const route  = useRoute();
 </script>

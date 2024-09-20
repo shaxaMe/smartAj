@@ -7,12 +7,20 @@
         <Topbar />
         <NavHeader class="relative z-10" />
         <NuxtPage class="relative z-[1]" />
+        <section>
+            <Footer />
+        </section>
     </div>
 </template>
 
 <script setup>
 const { $gsap } = useNuxtApp()
-
+function toggleDarkMode(theme) {
+  useColorMode().preference = theme
+}
+onMounted(()=>{
+    toggleDarkMode('light')
+})
 // onMounted(() => {
 //     let mouseX = 0;
 //     let mouseY = 0;
