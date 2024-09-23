@@ -9,8 +9,9 @@
         </div>
         <div>
             <h2
-                class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center my-4">
-                Eng so'nggi yangiliklar va<br>tadbirlar bilan tanishing</h2>
+                class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center my-5">
+                Yangiliklardan birinchilardan bo’lib <br>
+xabardor bo’ling!</h2>
             <div class="grid grid-cols-4 gap-3 mt-5 max-md:grid-cols-3 max-sm:grid-cols-1">
                 <nuxt-link :to="`/news/${item}`" v-for="item in 5" class="relative hover:shadow-xl transition duration-200 flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg">
                     <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
