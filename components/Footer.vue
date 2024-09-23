@@ -6,7 +6,8 @@
             <div class="mx-auto w-full max-w-screen-xl">
                 <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Company</h2>
+                        <h2 class="mb-6 text-sm cursor-pointer font-semibold text-gray-900 uppercase">"SMART
+                            MARKETPLACE" AJ</h2>
                         <ul class="text-gray-500  font-medium">
                             <li class="mb-4">
                                 <nuxt-link to="/#about" class=" hover:underline">Biz haqimizda</nuxt-link>
@@ -23,59 +24,69 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Help center</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Aloqa uchun </h2>
                         <ul class="text-gray-500 font-medium">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Discord Server</a>
+                                <a href="tel:+998712058484" class="hover:underline">+998 71 205 84 84</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Twitter</a>
+                                <a href="#" class="hover:underline">info@</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Facebook</a>
-                            </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Contact Us</a>
+                                <a href="#" class="hover:underline">100084, O’zbekiston,<br>Toshkent sh.
+                                    Kichik halqa yo’li,<br>38/1</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Xizmatlarimiz</h2>
                         <ul class="text-gray-500 font-medium">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Privacy Policy</a>
+                                <a href="#" class="hover:underline">Smart-Market</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Licensing</a>
+                                <a href="#" class="hover:underline">Online Bozor </a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                <a href="#" class="hover:underline">RealPay</a>
                             </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Download</h2>
-                        <ul class="text-gray-500 font-medium">
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">iOS</a>
-                            </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Android</a>
-                            </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Windows</a>
-                            </li>
-                            <li class="mb-4">
+                            <!-- <li class="mb-4">
                                 <a href="#" class="hover:underline">MacOS</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Ijtimoiy tarmoqlarimiz</h2>
+                        <ul class="text-gray-500 font-medium flex flex-wrap gap-4">
+                            <li class="mb-4">
+                                <a href="#" class="text-gray-400 text-lg hover:text-[#023363] flex justify-start gap-1 items-end">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16">
+                                        <path fill="currentColor"
+                                            d="M8 0C5.829 0 5.556.01 4.703.048C3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7C.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297c.04.852.174 1.433.372 1.942c.205.526.478.972.923 1.417c.444.445.89.719 1.416.923c.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417c.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046c.78.035 1.204.166 1.486.275c.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485c.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598c-.28.11-.704.24-1.485.276c-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598a2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485c-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486c.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276c.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92a.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217a4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334a2.667 2.667 0 0 1 0-5.334" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline text-gray-400 text-lg hover:text-[#023363]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 14 14"><path fill="currentColor" fill-rule="evenodd" d="M.25 7a6.75 6.75 0 1 1 13.5 0A6.75 6.75 0 0 1 .25 7m9.002 4.064l1.045-7.932l-8.165 3.935l2.417.876l2.686-2.076a.5.5 0 1 1 .611.792L5.618 8.38v2.726l1.685-1.604z" clip-rule="evenodd"/></svg>
+                                </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline text-gray-400 text-lg hover:text-[#023363]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 1000 1000"><path fill="currentColor" d="M182.594 0C81.445 0 0 81.445 0 182.594v634.813c0 101.149 81.445 182.594 182.594 182.594h344.063V609.063H423.282v-140.75h103.375v-120.25c0-94.475 61.079-181.219 201.781-181.219c56.968 0 99.094 5.469 99.094 5.469l-3.313 131.438s-42.963-.406-89.844-.406c-50.739 0-58.875 23.378-58.875 62.188v102.781h152.75l-6.656 140.75H675.5v390.938h141.906c101.149 0 182.594-81.445 182.594-182.594V182.595C1000 81.446 918.555.001 817.406.001H182.593z"/></svg>
+                                </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline text-gray-400 text-lg hover:text-[#023363]"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16"><path fill="currentColor" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248c-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586c.173-.431.568-.878 1.232-.878c.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252c-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></svg></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="px-4 py-6 bg-white md:flex md:items-center md:justify-between">
-                    <span class="text-sm text-gray-500 sm:text-center">© 2023 <a
-                            href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+                    <span class="text-sm text-gray-500 sm:text-center">© 2024 <a
+                            href="https://flowbite.com/">marketplace AJ™</a>. All Rights Reserved.
                     </span>
-                    <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+                    <!-- <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
                         <a href="#" class="text-gray-400 hover:text-gray-900">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor" viewBox="0 0 8 19">
@@ -120,7 +131,7 @@
                             </svg>
                             <span class="sr-only">Dribbble account</span>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </footer>
