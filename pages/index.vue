@@ -9,7 +9,7 @@
                 </div>
                 <video v-show="!loading" id="video" class="w-full h-full object-cover" src="~/assets/video/meeting.mp4"
                     autoplay muted loop></video>
-                    <img v-show="loading" src="~/assets/images/offise.jpg"
+                    <img v-show="loading" src="~/assets/images/offise.webp"
                         class="w-full h-full object-cover group-hover:scale-125 transition ease-in-out duration-500"
                         alt="main" />   
             </div>

@@ -15,17 +15,15 @@ xabardor bo’ling!</h2>
             <div class="grid grid-cols-4 gap-3 mt-5 max-md:grid-cols-3 max-sm:grid-cols-1">
                 <nuxt-link :to="`/news/${item}`" v-for="item in 5" class="relative hover:shadow-xl transition duration-200 flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg">
                     <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-                            alt="card-image" />
+                        <img src="../assets/images/onlinebozornew.webp"
+                            alt="card-image" class="w-full h-full object-cover" />
                     </div>
                     <div class="p-4">
                         <h6 class="mb-2 text-slate-800 text-xl font-semibold">
-                            Website Review Check
+                            Endi sotish va sotib olish yanada oson!
                         </h6>
                         <p class="text-slate-600 leading-normal font-light line-clamp-4">
-                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                            and near to &quot;Naviglio&quot; where you can enjoy the main night life in
-                            Barcelona.
+                            🛍 Online Bozor mobil ilovasini 🛒AppStore yoki 🛒Google Play dan yuklab oling va bir click orqali o’zingiz uchun  kerakli mahsulotlarga ega bo’ling!
                         </p>
                     </div>
                     <div class="px-4 pb-4 pt-0 mt-2">

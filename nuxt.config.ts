@@ -33,7 +33,7 @@ export default defineNuxtConfig({
   // },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: ['@nuxt/ui', '@nuxt/image', 'nuxt-aos', '@hypernym/nuxt-gsap', '@nuxtjs/i18n'],
+  modules: ['@nuxt/ui', '@nuxt/image', 'nuxt-aos', '@hypernym/nuxt-gsap', '@nuxtjs/i18n','nuxt-swiper'],
   i18n: {
     vueI18n: './i18n.config.ts' // if you are using custom path, default
   },
