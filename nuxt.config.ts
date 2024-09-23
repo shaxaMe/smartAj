@@ -25,12 +25,12 @@ export default defineNuxtConfig({
   },
   // ssr: false,
   // Optional: configure the generation options
-  generate: {
-    routes: [
-      // Specify any dynamic routes if needed
-      '/dynamic-page'
-    ],
-  },
+  // generate: {
+  //   routes: [
+  //     // Specify any dynamic routes if needed
+  //     '/dynamic-page'
+  //   ],
+  // },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
   modules: ['@nuxt/ui', '@nuxt/image', 'nuxt-aos', '@hypernym/nuxt-gsap', '@nuxtjs/i18n'],
