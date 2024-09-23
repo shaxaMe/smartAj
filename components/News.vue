@@ -11,7 +11,7 @@
             <h2
                 class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center my-4">
                 Eng so'nggi yangiliklar va<br>tadbirlar bilan tanishing</h2>
-            <div class="grid grid-cols-4 gap-3 mt-5">
+            <div class="grid grid-cols-4 gap-3 mt-5 max-md:grid-cols-3 max-sm:grid-cols-1">
                 <nuxt-link :to="`/news/${item}`" v-for="item in 5" class="relative hover:shadow-xl transition duration-200 flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg">
                     <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                         <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
