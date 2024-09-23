@@ -1,5 +1,28 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: '"SMART MARKETPLACE" AJ',
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' },
+        { hid: 'description', name: 'description', content: "SMART MARKET AJ keng qamrovli ilovalar majmuasi" },
+        { name: 'format-detection', content: 'telephone=no' },
+        { property: 'og:title', content: 'SMART MARKET AJ' },
+        { property: 'og:description', content: "SMART MARKET AJ keng qamrovli ilovalar majmuasi" },
+        { property: 'og:image', content: './logonew.png' },
+        { hid: 'og-type', property: 'og:type', content: 'website' },
+        { hid: 'og-site_name', property: 'og:site_name', content: 'smart-aj.uz' },
+        { name: 'author', content: '«SmartMarket» MCHJ' },
+        { property: 'keywords', content: 'Online-bozor,smart-market,realpay,market,aj,aksiyadorlik jamiyati,smart market aksiyadorlik jamiyati,bisnes,marketplace' },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/logonew.png' }
+      ]
+    }
+  },
   ssr: false,
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
@@ -27,7 +50,7 @@ export default defineNuxtConfig({
     disableMutationObserver: false, // disables automatic mutations' detections (advanced)
     debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
     throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-    
+
     // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
     offset: 120, // offset (in px) from the original trigger point
     delay: 0, // values from 0 to 3000, with step 50ms
