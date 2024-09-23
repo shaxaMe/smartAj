@@ -16,7 +16,7 @@
                     <div class="grid grid-cols-3 gap-3">
                           <div class="bg-[#F6F6F7] p-6 rounded-xl" v-for="item in 6">
                                  <div class="w-full p-1 overflow-hidden">
-                                    <img src="https://unistudio.co/html/innovar/assets/images/team/member-01.jpg" alt="">
+                                    <img src="https://unistudio.co/html/innovar/assets/images/team/member-01.jpg" alt="team">
                                  </div>
                                  <div >
                                     <h1 class="text-[#023363] text-3xl font-semibold ">John Carter</h1>

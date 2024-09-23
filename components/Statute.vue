@@ -61,11 +61,11 @@
                     </div> -->
                     <div class="max-h-[650px] overflow-hidden hover:shadow-2xl transition duration-300">
                         <img class="h-auto object-cover max-w-full rounded-lg" src="../assets/images/onlinebozor.webp"
-                            alt="">
+                            alt="onlinebozor">
                     </div>
                     <div class="max-h-[650px] overflow-hidden hover:shadow-2xl transition duration-300">
                         <img class="h-auto object-cover max-w-full rounded-lg" src="../assets/images/RealPaypatent.webp"
-                            alt="">
+                            alt="realpay">
                     </div>
                 </div>
 

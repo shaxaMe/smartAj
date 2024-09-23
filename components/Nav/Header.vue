@@ -51,7 +51,7 @@
                 </div>
                 <template #item="{ item }" class="w-fit px-3 py-2">
                     <div>
-                        <img :src="flags(item.label)" alt="">
+                        <img :src="flags(item.label)" alt="lang">
                     </div>
                     <span class="truncate">{{ item.label }}</span>
                 </template>
