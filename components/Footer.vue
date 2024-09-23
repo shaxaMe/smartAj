@@ -9,16 +9,16 @@
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Company</h2>
                         <ul class="text-gray-500  font-medium">
                             <li class="mb-4">
-                                <a href="#" class=" hover:underline">About</a>
+                                <nuxt-link to="/#about" class=" hover:underline">Biz haqimizda</nuxt-link>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Careers</a>
+                                <nuxt-link to="/#products" class="hover:underline">Mahsulotlarimiz</nuxt-link>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Brand Center</a>
+                                <nuxt-link to="/#news" class="hover:underline">Yangiliklar</nuxt-link>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Blog</a>
+                                <nuxt-link to="/#vacancy" class="hover:underline">Vakansiyalar</nuxt-link>
                             </li>
                         </ul>
                     </div>

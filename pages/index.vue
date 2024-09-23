@@ -50,7 +50,7 @@
                         <div class="w-fit pr-8 max-md:pr-3 py-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">30M
                             </p>
-                            <p class="text-base max-sm:text-[10px] max-sm:leading-3 max-sm:text-sm max-sm:text-center max-sm:mt-1">Foydalanuvchilar</p>
+                            <p class="text-base max-sm:text-[10px] max-sm:leading-3 max-sm:text-center max-sm:mt-1">Foydalanuvchilar</p>
                         </div>
                         <div class="w-fit px-8 max-md:px-4 py-2 border-y-0 border-x-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">10K</p>
@@ -59,12 +59,12 @@
                         <div class="w-fit pl-8 max-md:pl-3 py-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">250
                             </p>
-                            <p class="text-base max-sm:text-[10px] max-sm:leading-3 max-sm:text-sm max-sm:text-center max-sm:mt-1">Muvaffaqiyatli loyiha</p>
+                            <p class="text-base max-sm:text-[10px] max-sm:leading-3 max-sm:text-center max-sm:mt-1">Muvaffaqiyatli loyiha</p>
                         </div>
                     </div>
                 </div>
-                <div class="flex-1 max-md:flex max-md:justify-center" data-aos="fade-left" data-aos-duration="650"
-                    data-aos-easing="ease-in-back" data-aos-offset="500">
+                <div class="flex-1 max-md:flex max-md:justify-center" data-aos="fade-left" data-aos-duration="450"
+                    data-aos-easing="ease-in-back">
                     <NuxtImg
                         src="https://raw.githubusercontent.com/shaxaMe/cfgcs/c7ba119359f7c2674f6cad75d53c71fb89522ac1/main.svg"
                         class="w-full max-w-[650px] max-md:max-w-[450px] max-h-[600px]" />

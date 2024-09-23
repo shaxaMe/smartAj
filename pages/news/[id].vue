@@ -1,5 +1,5 @@
 <template>
-    <div class="cm-container py-10">
+    <div class="cm-container py-10 max-md:px-4">
         <div class="flex justify-center items-center">
             <div class="max-w-full overflow-hidden rounded-xl h-[500px]">
                 <img class="w-full h-full object-cover"
