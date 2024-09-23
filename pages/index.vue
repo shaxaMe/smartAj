@@ -4,14 +4,14 @@
             <div class="w-screen h-[65dvh] max-md:h-[50dvh] relative">
                 <div class="w-full h-full flex justify-center items-center absolute inset-0 bg-black/25">
                     <p data-aos="fade-up" class="text-white max-md:text-xl max-md:w-1/2 text-6xl text-center backdrop-blur-sm bg-white/10 w-1/3 py-5 px-8 rounded-lg filter">
-                        Qulay to'lov tizimlari va savdo imkoniyatlari
+                        Qulay to'lov va savdo imkoniyatlari!
                     </p>
                 </div>
                 <video v-show="!loading" id="video" class="w-full h-full object-cover" src="~/assets/video/meeting.mp4"
                     autoplay muted loop></video>
                     <img v-show="loading" src="~/assets/images/offise.jpg"
                         class="w-full h-full object-cover group-hover:scale-125 transition ease-in-out duration-500"
-                        alt="" />   
+                        alt="main" />   
             </div>
         </section>
         <section class="bg-[#F2F5F7] py-10 max-md:py-5">
