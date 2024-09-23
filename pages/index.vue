@@ -3,7 +3,7 @@
         <section class="py-5">
             <div class="w-screen h-[65dvh] max-md:h-[50dvh] relative">
                 <div class="w-full h-full flex justify-center items-center absolute inset-0 bg-black/25">
-                    <p data-aos="fade-up" class="text-white max-md:text-xl max-md:w-1/2 text-6xl text-center backdrop-blur-sm bg-white/10 w-1/3 py-5 px-8 rounded-lg filter">
+                    <p data-aos="fade-up" class="text-white max-md:text-xl max-md:w-1/2 max-sm:min-w-[70%] text-6xl text-center backdrop-blur-sm bg-white/10 w-1/3 py-5 px-8 rounded-lg filter">
                         Qulay to'lov va savdo imkoniyatlari!
                     </p>
                 </div>
@@ -20,7 +20,7 @@
                     <div class="flex flex-col gap-8 max-md:gap-4 max-md:justify-center max-md:items-center"
                         data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-back">
                         <div
-                            class="text-black text-6xl max-md:text-5xl max-sm:text-3xl max-md:text-center w-full font-semibold leading-[110%] max-md:leading-[120%] max-[350px]:text-3xl">
+                            class="text-black text-6xl max-md:text-5xl max-sm:text-3xl max-md:text-center w-full font-semibold leading-[110%] max-md:leading-[120%] max-[350px]:text-2xl">
                             Consulting for your<br>
                             <div class="flex gap-4 max-md:text-center max-md:justify-center max-sm:gap-2">
                                 <p>app &</p>
@@ -50,18 +50,16 @@
                         <div class="w-fit pr-8 max-md:pr-3 py-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">30M
                             </p>
-                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Foydalanuvchilar</p>
+                            <p class="text-base max-sm:text-[10px] max-sm:leading-3 max-sm:text-sm max-sm:text-center max-sm:mt-1">Foydalanuvchilar</p>
                         </div>
                         <div class="w-fit px-8 max-md:px-4 py-2 border-y-0 border-x-2">
-                            <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">10K
-                                +
-                            </p>
-                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Mamnun mijozlar</p>
+                            <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">10K</p>
+                            <p class="text-base max-sm:text-[10px] max-sm:leading-3 max-sm:text-center max-sm:mt-1">Mamnun mijozlar</p>
                         </div>
                         <div class="w-fit pl-8 max-md:pl-3 py-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">250
                             </p>
-                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Muvaffaqiyatli loyiha</p>
+                            <p class="text-base max-sm:text-[10px] max-sm:leading-3 max-sm:text-sm max-sm:text-center max-sm:mt-1">Muvaffaqiyatli loyiha</p>
                         </div>
                     </div>
                 </div>

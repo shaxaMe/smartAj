@@ -32,7 +32,7 @@
 
 
                 <!-- <a href="#" class="nav-link app-nav relative">Vakansiyalar</a> -->
-                <nuxt-link to="/#news" class="nav-link app-nav relative">Yangiliklar</nuxt-link>
+                <nuxt-link :to="'/#news'" class="nav-link app-nav relative">Yangiliklar</nuxt-link>
                 <!-- <a href="#">
                 <UDropdown :items="items" :popper="{ placement: 'bottom-start' }" class="ui-dropdonw">
                     <UButton color="white" label="More" trailing-icon="i-heroicons-chevron-down-20-solid" />
@@ -56,6 +56,9 @@
                     <span class="truncate">{{ item.label }}</span>
                 </template>
             </UDropdown>
+            <div class="cursor-pointer hidden max-md:inline-block text-black" v-if="!menuOpen" @click="toggleMenu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="#888888" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6h18M3 12h18M3 18h18"/></svg>
+            </div>
         </div>
     </div>
 
@@ -64,7 +67,13 @@
 <script setup>
 import UzFlag from "../../assets/images/flags/la.svg"
 import RuFlag from "../../assets/images/flags/ru.svg"
-const { locale, setLocale } = useI18n()
+const { locale, setLocale } = useI18n();
+
+const menuOpen = useState('menuOpen', () => false);
+
+const toggleMenu = () => {
+  menuOpen.value = true;
+};
 const items = [
     // [{
     //     label: 'Profile',

@@ -1,6 +1,6 @@
 <template>
-    <div class="cm-container max-md:px-5" data-aos="fade-down" data-aos-duration="550">
-        <div class="w-full min-h-[100px] flex justify-between items-center">
+    <div class="cm-container max-md:px-5" :class="{'!fixed top-0 left-0 w-full bg-white':windowScrollY>120}" data-aos="fade-down" data-aos-duration="550">
+        <div class="w-full min-h-[100px] flex justify-between items-center" >
             <nuxt-link to="/"
                 class="w-fit h-full text-xl max-h-12 max-md:text-lg max-md:leading-5 text-black cursor-pointer logo-text">
                 <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
@@ -40,7 +40,7 @@
             </a> -->
             </nav>
             <UDropdown
-                class="min-h-[40px] max-sm:hidden  hover:text-white transition duration-150 ease-in-out font-semibold text-base text-[#fff] rounded-[10px]"
+                class="min-h-[40px] max-md:hidden  hover:text-white transition duration-150 ease-in-out font-semibold text-base text-[#fff] rounded-[10px]"
                 v-model:open="open" :items="items" mode="hover" :popper="{ placement: 'bottom-start' }">
                 <div>
                     <button
@@ -56,6 +56,9 @@
                     <span class="truncate">{{ item.label }}</span>
                 </template>
             </UDropdown>
+            <div class="cursor-pointer hidden max-md:inline-block text-black" @click="toggleMenu" v-if="!menuOpen">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="#888888" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6h18M3 12h18M3 18h18"/></svg>
+            </div>
         </div>
     </div>
 
@@ -64,7 +67,13 @@
 <script setup>
 import UzFlag from "../../assets/images/flags/la.svg"
 import RuFlag from "../../assets/images/flags/ru.svg"
-const { locale, setLocale } = useI18n()
+const { locale, setLocale } = useI18n();
+const menuOpen = useState('menuOpen', () => false);
+
+const windowScrollY = ref(0)
+const toggleMenu = () => {
+  menuOpen.value = true;
+};
 const items = [
     // [{
     //     label: 'Profile',
@@ -92,6 +101,11 @@ function flags(name) {
 function changeFlag(current) {
     currentLang.value = current;
 }
+onMounted(()=>{
+    window.addEventListener('scroll', () => {
+        windowScrollY.value = window.scrollY;
+    });
+})
 </script>
 
 <style lang="scss"></style>

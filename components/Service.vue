@@ -30,7 +30,7 @@
              </a>
              <a href="https://realpay.uz/" target="_blank" class="max-h-[320px] shadow-md overflow-hidden max-md:min-h-[300px] rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-offest="500">
                 <video src="~/assets/video/realpay.mp4" class="min-w-full max-md:absolute h-full object-cover" autoplay muted loop></video>
-                <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">
+                <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 max-sm:w-[80%] bg-black/25">
                 <p class="font-semibold text-xl">RealPay</p>
                 <p>To'lovlarni tez va oson amalga oshiring!</p>
              </div>

@@ -6,6 +6,7 @@
         <div class="cursor-tail"></div> -->
         <Topbar />
         <NavTeamHeader class="relative z-10" />
+        <NavMobileNav />
         <NuxtPage class="relative z-[1]" />
         <section>
             <Footer />
