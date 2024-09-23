@@ -1,6 +1,6 @@
 <template>
-    <div class="cm-container max-md:px-5" data-aos="fade-down" data-aos-duration="550">
-        <div class="w-full min-h-[100px] flex justify-between items-center">
+    <div class="cm-container max-md:px-5" data-aos="fade-down" data-aos-duration="550" :class="{'!fixed top-0 !max-w-[100%] left-0 w-full bg-white':windowScrollY>120}">
+        <div class="w-full min-h-[100px] flex justify-between items-center" :class="{'max-w-[1330px] mx-auto':windowScrollY>120}">
             <nuxt-link to="/"
                 class="w-fit h-full text-xl max-h-12 max-md:text-lg max-md:leading-5 text-black cursor-pointer logo-text">
                 <!-- <img src="~/assets/images/logonew.png" class="w-full h-full max-w-32 max-h-12 object-contain" alt="logo"> -->
@@ -68,6 +68,7 @@
 import UzFlag from "../../assets/images/flags/la.svg"
 import RuFlag from "../../assets/images/flags/ru.svg"
 const { locale, setLocale } = useI18n();
+const windowScrollY = ref(0)
 
 const menuOpen = useState('menuOpen', () => false);
 
@@ -101,6 +102,11 @@ function flags(name) {
 function changeFlag(current) {
     currentLang.value = current;
 }
+onMounted(()=>{
+    window.addEventListener('scroll', () => {
+        windowScrollY.value = window.scrollY;
+    });
+})
 </script>
 
 <style lang="scss"></style>
