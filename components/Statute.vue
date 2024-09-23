@@ -7,13 +7,15 @@
         </div>
         <div class="mt-10">
             <div class="max-w-[300px] faqs-tab">
-                <UTabs :items="items" :default-index="2" />
+                <UTabs  v-model="selected" :items="items" :default-index="2" />
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
+
+const selected = ref(1)
 const items = [{
     label: 'Nizom',
     icon: 'i-mdi:file-document',

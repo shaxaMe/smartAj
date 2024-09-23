@@ -4,7 +4,7 @@
             <div class="w-screen h-[65dvh] max-md:h-[50dvh] relative">
                 <div class="w-full h-full flex justify-center items-center absolute inset-0 bg-black/25">
                     <p data-aos="fade-up" class="text-white max-md:text-xl max-md:w-1/2 text-6xl text-center backdrop-blur-sm bg-white/10 w-1/3 py-5 px-8 rounded-lg filter">
-                        Discover our app for seamless rewards
+                        Qulay to'lov tizimlari va savdo imkoniyatlari
                     </p>
                 </div>
                 <video v-show="!loading" id="video" class="w-full h-full object-cover" src="~/assets/video/meeting.mp4"
@@ -33,10 +33,7 @@
                             </div>
                         </div>
                         <p class="text-[#404144] text-[1.5em] mt-5 max-sm:text-[1em] leading-[130%] max-md:text-center">
-                            Discover our app for seamless rewards
-                            -
-                            access<br>
-                            perks, cashbacks, and savings effortlessly.</p>
+                            Qulay to'lov tizimlari va savdo imkoniyatlaridan<br>samarali foydalanishni biz bilan kashf eting.</p>
                         <!-- <div
                             class="flex justify-start max-md:justify-center max-sm:flex-col max-md:w-full items-stretch gap-3">
                             <UInput class="ui-input max-sm:max-w-full target-button max-w-[250px] flex-1"
@@ -53,18 +50,18 @@
                         <div class="w-fit pr-8 max-md:pr-3 py-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">30M
                             </p>
-                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Paid in cashbacks</p>
+                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Foydalanuvchilar</p>
                         </div>
                         <div class="w-fit px-8 max-md:px-4 py-2 border-y-0 border-x-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">10K
                                 +
                             </p>
-                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Paid in cashbacks</p>
+                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Mamnun mijozlar</p>
                         </div>
                         <div class="w-fit pl-8 max-md:pl-3 py-2">
                             <p class="text-4xl max-md:text-center max-md:text-3xl max-sm:text-2xl font-semibold">250
                             </p>
-                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Paid in cashbacks</p>
+                            <p class="text-base max-sm:text-sm max-sm:text-center max-sm:mt-1">Muvaffaqiyatli loyiha</p>
                         </div>
                     </div>
                 </div>

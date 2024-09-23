@@ -5,10 +5,9 @@
             Vakansiyalar 
         </div>
         </div>
-        <div class="mt-5 flex flex-col gap-20 max-md:gap-10">
-            <h1 data-aos="fade-up" data-aos-duration="700" data-aos-offest="100" data-aos-easing="ease-in-back" class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center">Globally Recruitment and <br>
-                Consultation Solutions</h1>
-
+        <div class="mt-10 flex flex-col gap-20 max-md:gap-10">
+            <!-- <h1 data-aos="fade-up" data-aos-duration="700" data-aos-offest="100" data-aos-easing="ease-in-back" class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center">Globally Recruitment and <br>
+                Consultation Solutions</h1> -->
             <div class="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-4 items-stretch">
                 <div class="px-5 py-3 bg-[#F2F5F7] rounded-lg" v-for="item in 6">
                     <h1 class="text-[#101011] text-xl">Strong Junior | Middle QA Engineer</h1>

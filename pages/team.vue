@@ -33,5 +33,8 @@
 </template>
 
 <script setup>
+definePageMeta({
+    layout: 'team'
+})
 const route  = useRoute();
 </script>

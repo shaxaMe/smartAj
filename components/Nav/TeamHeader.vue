@@ -8,7 +8,7 @@
             </nuxt-link>
             <nav
                 class="flex-1 max-md:hidden max-w-[500px] flex w-full justify-between list-none text-[#101011] font-[600] text-base">
-                <a href="#about" class="nav-link app-nav relative">Biz haqimizda</a>
+                <nuxt-link to="/#about" class="nav-link app-nav relative">Biz haqimizda</nuxt-link>
                 <a href="#" class="nav-link app-nav !relative group z-30">
                     Jamoa
                     <ul
@@ -27,12 +27,12 @@
                         </li>
                     </ul>
                 </a>
-                <a href="#products" class="nav-link app-nav relative">Mahsulotlarimiz</a>
+                <nuxt-link to="/#products" class="nav-link app-nav relative">Mahsulotlarimiz</nuxt-link>
                 <!-- <a href="#" class="nav-link app-nav relative">Nizom</a> -->
 
 
                 <!-- <a href="#" class="nav-link app-nav relative">Vakansiyalar</a> -->
-                <a href="#news" class="nav-link app-nav relative">Yangiliklar</a>
+                <nuxt-link to="/#news" class="nav-link app-nav relative">Yangiliklar</nuxt-link>
                 <!-- <a href="#">
                 <UDropdown :items="items" :popper="{ placement: 'bottom-start' }" class="ui-dropdonw">
                     <UButton color="white" label="More" trailing-icon="i-heroicons-chevron-down-20-solid" />
@@ -44,7 +44,7 @@
                 v-model:open="open" :items="items" mode="hover" :popper="{ placement: 'bottom-start' }">
                 <div>
                     <button
-                        class="min-h-[40px] max-sm:hidden hover:bg-[#023363] px-6 bg-[#023363] hover:text-white transition duration-150 py-1 ease-in-out text-center flex justify-center items-center font-semibold text-[#fff] border-[#023363] border-2 gap-2 rounded-[10px] text-lg">
+                        class="min-h-[40px] max-sm:hidden hover:bg-[#023363] px-6 bg-[#023363] hover:text-white transition duration-150 ease-in-out text-center flex justify-center items-center font-semibold text-[#fff] border-[#023363] border-2 gap-2 rounded-[10px] text-lg">
                         <img :src="currentLang == 'Uz' ? UzFlag : RuFlag" class="w-4 h-4" />
                         {{ currentLang }}
                     </button>

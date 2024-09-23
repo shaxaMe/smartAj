@@ -10,7 +10,7 @@
         <div>
             <h2
                 class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center my-4">
-                Our popular blogs</h2>
+                Eng so'nggi yangiliklar va<br>tadbirlar bilan tanishing</h2>
             <div class="grid grid-cols-4 gap-3 mt-5">
                 <nuxt-link :to="`/news/${item}`" v-for="item in 5" class="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg">
                     <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
