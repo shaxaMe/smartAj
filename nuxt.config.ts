@@ -10,8 +10,8 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' },
         { hid: 'description', name: 'description', content: "SMART MARKET AJ keng qamrovli ilovalar majmuasi" },
         { name: 'format-detection', content: 'telephone=no' },
-        { property: 'og:title', content: 'SMART MARKET AJ' },
-        { property: 'og:description', content: "SMART MARKET AJ keng qamrovli ilovalar majmuasi" },
+        { property: 'og:title', content: '"SMART MARKETPLACE" AJ' },
+        { property: 'og:description', content: '"SMART MARKETPLACE" AJ keng qamrovli ilovalar majmuasi' },
         { property: 'og:image', content: './logonew.png' },
         { hid: 'og-type', property: 'og:type', content: 'website' },
         { hid: 'og-site_name', property: 'og:site_name', content: 'smart-aj.uz' },
@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   },
   aos: {
     // Global settings:
-    disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
     startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
     initClassName: 'aos-init', // class applied after initialization
     animatedClassName: 'aos-animate', // class applied on animation

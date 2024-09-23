@@ -20,7 +20,7 @@
              </div>
            </a>
            <div class="flex flex-col flex-1 justify-between max-md:flex-row max-md:gap-4 max-sm:flex-col">
-             <a href="https://online-bozor.uz/" class="max-h-[320px] max-md:min-h-[300px] overflow-hidden border shadow-md rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
+             <a href="https://online-bozor.uz/" target="_blank" class="max-h-[320px] max-md:min-h-[300px] overflow-hidden border shadow-md rounded-xl relative cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-offest="300">
                 <!-- <img class="min-w-full" src="~/assets/images/service.png" alt="servise"> -->
                 <video src="~/assets/video/Onlinebozor.mp4" class="min-w-full max-md:absolute h-full object-cover" autoplay muted loop></video>
                 <div class="absolute px-3 py-5 z-10 text-[#fff] bottom-3 rounded-md left-4 bg-black/25">

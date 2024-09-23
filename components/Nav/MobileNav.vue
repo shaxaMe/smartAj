@@ -1,9 +1,9 @@
 <template>
     <div @click.self="isOpen = false"
-        class="z-10 bg-black/25 top-0 left-0 min-w-full transitio duration-500 ease-out min-h-screen hidden"
+        class="z-10 bg-black/25 backdrop-blur-sm top-0 left-0 min-w-full transitio duration-500 ease-out min-h-screen hidden"
         :class="{ '!fixed !inline-block': isOpen }">
         <div class="bg-white max-w-[0%] w-full h-full min-h-dvh -left-[200%] transition duration-700 ease-in-out"
-            :class="{ '!left-0 !max-w-[90%]': isOpen }">
+            :class="{ '!left-0 !max-w-[80%]': isOpen }">
             <div class="text-black py-3 px-4 flex w-full justify-end" @click="isOpen=false">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                     <path fill="#000"
@@ -36,7 +36,7 @@
 
 
                 <!-- <a href="#" class="nav-link app-nav relative">Vakansiyalar</a> -->
-                <nuxt-link :to="'/#news'" class="nav-link app-nav relative">Yangiliklar</nuxt-link>
+                <nuxt-link to="/#news" class="nav-link app-nav relative">Yangiliklar</nuxt-link>
                 <!-- <a href="#">
                 <UDropdown :items="items" :popper="{ placement: 'bottom-start' }" class="ui-dropdonw">
                     <UButton color="white" label="More" trailing-icon="i-heroicons-chevron-down-20-solid" />
