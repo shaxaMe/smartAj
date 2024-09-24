@@ -10,18 +10,18 @@
             <h2
                 class="text-[#101011] text-5xl font-semibold leading-[110%] max-md:text-3xl max-sm:text-2xl max-sm:text-center my-5" v-html="$t('news_title')">
                 </h2>
-            <div class="grid grid-cols-4 gap-3 mt-5 max-md:grid-cols-3 max-sm:grid-cols-1">
-                <nuxt-link @click="onClick(item)"  v-for="item in 5" :to="localePath(`/news/${item}`)" class="relative hover:shadow-xl transition duration-200 flex flex-col mt-6 bg-white shadow-sm border border-slate-200 rounded-lg">
+            <div class="grid grid-cols-4 gap-3 mt-5 max-md:grid-cols-3 max-sm:grid-cols-1" v-if="!pending">
+                <nuxt-link  v-for="(item,i) in Lists" :to="localePath(`/news/${item.id}`)" class="relative hover:shadow-xl transition duration-200 flex flex-col mt-6 bg-white shadow-sm border border-slate-200 rounded-lg" :key="i">
                     <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-                        <img src="../assets/images/onlinebozornew.webp"
+                        <img :src="`https://api.admin.realsoft.uz/uploads/images/${item.image}`"
                             alt="card-image" class="w-full h-full object-cover" />
                     </div>
                     <div class="p-4">
-                        <h6 class="mb-2 text-slate-800 text-xl font-semibold">
-                            Endi sotish va sotib olish yanada oson!
+                        <h6 class="mb-2 text-slate-800 text-xl font-semibold line-clamp-2">
+                            {{ item.title }}
                         </h6>
                         <p class="text-slate-600 leading-normal font-light line-clamp-4">
-                            🛍 Online Bozor mobil ilovasini 🛒AppStore yoki 🛒Google Play dan yuklab oling va bir click orqali o’zingiz uchun  kerakli mahsulotlarga ega bo’ling!
+                            {{ item.description }}
                         </p>
                     </div>
                     <div class="px-4 pb-4 pt-0 mt-2">
@@ -39,6 +39,16 @@
 
 <script setup>
 const localePath = useLocalePath();
+const {locale} = useI18n();
+const {pending,data:Lists} = await useCustomFetch('/v1/sm/news',{
+    params:{
+     lang:locale,
+    },
+    lazy:false,
+    transform:(Lists)=>{
+        return Lists.data
+    }
+})
 </script>
 
 <style lang="scss" scoped></style>
