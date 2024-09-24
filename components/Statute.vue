@@ -4,7 +4,7 @@
             <div id="statute" data-aos="fade-up" data-aos-duration="600" data-aos-offest="100"
                 data-aos-easing="ease-in-back"
                 class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-base  font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
-                Nizom
+                {{ $t('statue') }}
             </div>
         </div>
         <div class="mt-10">
@@ -76,17 +76,18 @@
 
 <script setup>
 
-const selected = ref(1)
-const items = [{
-    label: 'Nizom',
+const selected = ref(1);
+const { t } = useI18n();
+const items = computed(() => [{
+    label: t('statue'),
     icon: 'i-mdi:file-document',
     content: '',
     disabled: true,
 }, {
-    label: 'Litsenziya',
+    label: t('lisense'),
     icon: 'i-clarity:license-line',
     content: ''
-}]
+}]);
 </script>
 
 <style lang="scss" scoped></style>

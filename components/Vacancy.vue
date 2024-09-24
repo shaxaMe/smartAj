@@ -1,8 +1,8 @@
 <template>
     <div class="cm-container py-10 max-md:px-5">
         <div class="w-full max-sm:flex max-sm:justify-center">
-            <div data-aos="fade-up" id="vacancy" data-aos-duration="600" data-aos-offest="100" data-aos-easing="ease-in-back" class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-base  font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
-            Vakansiyalar 
+            <div  id="vacancy" class="bg-[#F2F5F7] text-[#101011] text-lg max-sm:text-base  font-semibold px-5 py-3 text-center w-fit rounded-[10px]">
+            {{ $t('vacansy') }} 
         </div>
         </div>
         <div class="mt-10 flex flex-col gap-20 max-md:gap-10">
@@ -20,7 +20,7 @@
                         <p class="text-[#101011] mt-3"><strong>Maosh:</strong> <span> 4000 000 - 8000 000</span></p>
                     </div>
                     <button class="min-h-[44px] max-w-[160px] flex-1 hover:text-white text-[#023363] transition duration-150 ease-in-out font-semibold text-base min-w-[150px] hover:bg-[#023363] border-[#023363] bg-[#fff] border rounded-[10px] max-md:max-w-full max-md:min-w-full">
-                          Batafsil
+                          {{ $t('read_more') }}
                     </button>
                 </div>
             </div>
