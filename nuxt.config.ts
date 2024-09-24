@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: "SMART MARKET AJ keng qamrovli ilovalar majmuasi" },
         { name: 'format-detection', content: 'telephone=no' },
         { property: 'og:title', content: '"SMART MARKETPLACE" AJ' },
-        { property: 'og:description', content: '"SMART MARKETPLACE" AJ keng qamrovli ilovalar majmuasi' },
+        { property: 'og:description', content: 'SMART MARKETPLACE bilan keng imkoniyatlar sari' },
         { property: 'og:image', content: './logonew.png' },
         { hid: 'og-type', property: 'og:type', content: 'website' },
         { hid: 'og-site_name', property: 'og:site_name', content: 'smart-aj.uz' },
