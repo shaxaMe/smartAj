@@ -81,7 +81,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="px-4 py-6 bg-white md:flex md:items-center md:justify-between">
+                <div class="px-4 py-6 md:flex md:items-center md:justify-end">
                     <span class="text-sm text-gray-500 sm:text-center">© 2024 <a
                             href="https://flowbite.com/">marketplace AJ™</a>. All Rights Reserved.
                     </span>
