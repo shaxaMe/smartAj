@@ -33,9 +33,37 @@ export default defineNuxtConfig({
   // },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: ['@nuxt/ui', '@nuxt/image', 'nuxt-aos', '@hypernym/nuxt-gsap', '@nuxtjs/i18n','nuxt-swiper'],
+  modules: ['@nuxt/ui', '@nuxt/image', 'nuxt-aos', '@hypernym/nuxt-gsap', '@nuxtjs/i18n', 'nuxt-swiper'],
   i18n: {
-    vueI18n: './i18n.config.ts' // if you are using custom path, default
+    // strategy: 'prefix',
+    // vueI18n: './i18n.config.ts'
+    // if you are using custom path, default
+      /* module options */
+      compilation: {
+        strictMessage: false,
+        escapeHtml: false,
+      },
+      lazy: true,
+      langDir: "locales",
+      strategy: "prefix_except_default",
+      locales: [
+        {
+          code: "uz",
+          iso: "uz-Uz",
+          name: "Uzbek",
+          file: "uz.json",
+        },
+        {
+          code: "ru",
+          iso: "ru-Ru",
+          name: "Russian",
+          file: "ru.json",
+        },
+      ],
+      defaultLocale: "uz",
+      // vueI18n: {
+      //   fallbackLocale: "en-US",
+      // },
   },
   css: [
     '~/assets/css/tailwind.css',

@@ -15,12 +15,13 @@
 </template>
 
 <script setup>
-const { $gsap } = useNuxtApp()
+const { $gsap } = useNuxtApp();
+
 function toggleDarkMode(theme) {
   useColorMode().preference = theme
 }
 onMounted(()=>{
-    toggleDarkMode('light')
+    toggleDarkMode('light');
 })
 // onMounted(() => {
 //     let mouseX = 0;

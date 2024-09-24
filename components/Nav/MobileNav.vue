@@ -12,8 +12,8 @@
             </div>
             <nav
                 class="flex-1 py-6 gap-5 px-5 mobile-nav  max-w-[500px] flex w-full justify-start flex-col list-none text-[#101011] font-[600] text-base">
-                <nuxt-link to="/#about" class="nav-link app-nav relative">Biz haqimizda</nuxt-link>
-                <a href="#" class="app-nav !relative group z-30">
+                <nuxt-link :to="localePath('/#about')" class="nav-link app-nav relative">{{ t('about') }}</nuxt-link>
+                <!-- <a href="#" class="nav-link app-nav !relative group z-30">
                     Jamoa
                     <ul
                         class="absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[350px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
@@ -30,13 +30,16 @@
                                 class="nav-link app-nav relative w-fit">Tashkiliy tuzilma</nuxt-link>
                         </li>
                     </ul>
-                </a>
-                <nuxt-link to="/#products" class="nav-link app-nav relative">Mahsulotlarimiz</nuxt-link>
+                </a> -->
+                <nuxt-link :to="localePath('/#products')" class="nav-link app-nav relative">{{ t('products') }}</nuxt-link>
                 <!-- <a href="#" class="nav-link app-nav relative">Nizom</a> -->
 
 
                 <!-- <a href="#" class="nav-link app-nav relative">Vakansiyalar</a> -->
-                <nuxt-link to="/#news" class="nav-link app-nav relative">Yangiliklar</nuxt-link>
+                <nuxt-link :to="localePath('/#news')" class="nav-link app-nav relative">{{ t('news') }}</nuxt-link>
+                <nuxt-link :to="localePath('/#vacancy')" class="nav-link app-nav relative">{{ t('vacansy') }}</nuxt-link>
+
+
                 <!-- <a href="#">
                 <UDropdown :items="items" :popper="{ placement: 'bottom-start' }" class="ui-dropdonw">
                     <UButton color="white" label="More" trailing-icon="i-heroicons-chevron-down-20-solid" />
@@ -49,7 +52,8 @@
 
 <script setup>
 const isOpen = useState('menuOpen');
-
+const localePath = useLocalePath();
+const { setLocale,t } = useI18n();
 watch(isOpen, (newValue, oldValue) => {
     if (!newValue) {
         useState('menuOpen', () => false);

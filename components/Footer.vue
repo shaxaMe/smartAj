@@ -10,21 +10,21 @@
                             MARKETPLACE" AJ</h2>
                         <ul class="text-gray-500  font-medium">
                             <li class="mb-4">
-                                <nuxt-link to="/#about" class=" hover:underline">Biz haqimizda</nuxt-link>
+                                <nuxt-link :to="localePath('/#about')" class=" hover:underline">{{ $t('about') }}</nuxt-link>
                             </li>
                             <li class="mb-4">
-                                <nuxt-link to="/#products" class="hover:underline">Mahsulotlarimiz</nuxt-link>
+                                <nuxt-link :to="localePath('/#products')" class="hover:underline">{{ $t('products') }}</nuxt-link>
                             </li>
                             <li class="mb-4">
-                                <nuxt-link to="/#news" class="hover:underline">Yangiliklar</nuxt-link>
+                                <nuxt-link :to="localePath('/#news')" class="hover:underline">{{ $t('news') }}</nuxt-link>
                             </li>
                             <li class="mb-4">
-                                <nuxt-link to="/#vacancy" class="hover:underline">Vakansiyalar</nuxt-link>
+                                <nuxt-link :to="localePath('/#vacancy')" class="hover:underline">{{ $t('vacansy') }}</nuxt-link>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Aloqa uchun </h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">{{ $t('connect') }} </h2>
                         <ul class="text-gray-500 font-medium">
                             <li class="mb-4">
                                 <a href="tel:+998712058484" class="hover:underline">+998 71 205 84 84</a>
@@ -33,13 +33,12 @@
                                 <a href="#" class="hover:underline">info@</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">100084, O’zbekiston,<br>Toshkent sh.
-                                    Kichik halqa yo’li,<br>38/1</a>
+                                <a href="#" class="hover:underline" v-html="$t('location')"></a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Xizmatlarimiz</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">{{ $t('working') }}</h2>
                         <ul class="text-gray-500 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Smart-Market</a>
@@ -56,7 +55,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Ijtimoiy tarmoqlarimiz</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">{{ $t('socials') }}</h2>
                         <ul class="text-gray-500 font-medium flex flex-wrap gap-4">
                             <li class="mb-4">
                                 <a href="#" class="text-gray-400 text-lg hover:text-[#023363] flex justify-start gap-1 items-end">
@@ -140,7 +139,7 @@
 </template>
 
 <script setup>
-
+const localePath = useLocalePath();
 </script>
 
 <style lang="scss" scoped></style>
