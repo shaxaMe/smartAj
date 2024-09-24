@@ -94,6 +94,7 @@
 
 <script setup>
 let loading = ref(true);
+
 onMounted(() => {
     let video = document.querySelector("#video");
     setTimeout(()=>{
