@@ -16,7 +16,7 @@
         </section>
         <section class="bg-[#F2F5F7] py-10 max-md:py-5">
             <div class="cm-container flex max-md:gap-4 max-md:px-5 max-md:flex-col">
-                <div class="flex-1 mt-20 max-md:mt-5 flex flex-col justify-between">
+                <div class="flex-1 mt-20 max-md:mt-5 flex flex-col justify-evenly">
                     <div class="flex flex-col gap-8 max-md:gap-4 max-md:justify-center max-md:items-center"
                         data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-back">
                         <div
